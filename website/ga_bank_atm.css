@@ -1,0 +1,133 @@
+body {
+  background : #000000 url('aegis.jpg');
+}
+
+.wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 2.5em;
+  color: #ffd700;
+  vertical-align: top;
+  width: 35%;
+  margin: 4.5% 25% 0 2%;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 10px;
+  text-shadow:
+ -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+
+h2 {
+  font-size: 3.5em;
+  letter-spacing: 10px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3{
+  font-size: 2em;
+  color: white;
+  text-shadow:
+ -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+
+p{
+  font-size: 1.5em;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.logo {
+  max-width: 30%;
+  margin: 2.5% 0;
+  border: 1px solid black;
+}
+
+div {
+  display: inline-block;
+  border-radius: 10%;
+}
+
+.saving {
+  margin: 2.5%;
+  background-color: rgba(255, 0, 0, 0.21);
+  box-shadow: 10px 10px 5px #888888;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+  max-width: 30%;
+}
+
+.checking {
+  margin: 2.5%;
+  background-color: rgba(255, 0, 0, 0.21);
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+  max-width: 30%;
+}
+
+input {
+  width: 80%;
+  height: 5em;
+  margin: 10px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+input[type="text"] {
+  font-size: 20px;
+}
+
+button {
+  width: 40%;
+  margin: 4.5%;
+  padding: 4%;
+  border-radius: 50%;
+  font-family: 'Merriweather', serif;
+  font-weight: 800;
+  font-size: large;
+  background: rgba(240, 248, 255, 0);
+}
+
+.withdraw-btn_checking {
+  color: white;
+  text-shadow: -1px -1px 0 #f10606,
+              1px -1px 0 #f10606,
+              -1px 1px 0 #f10606,
+              1px 1px 0 #f10606;
+}
+
+.withdraw-btn_saving {
+  color: white;
+  text-shadow: -1px -1px 0 #f10606,
+              1px -1px 0 #f10606,
+              -1px 1px 0 #f10606,
+              1px 1px 0 #f10606;
+}
+
+.deposit-btn_checking {
+    color: white;
+    text-shadow: -1px -1px 0 #808080,
+                1px -1px 0 #808080,
+                -1px 1px 0 #808080,
+                1px 1px 0 #808080;
+}
+
+.deposit-btn_saving {
+    color: white;
+    text-shadow: -1px -1px 0 #808080,
+                1px -1px 0 #808080,
+                -1px 1px 0 #808080,
+                1px 1px 0 #808080;
+}
